@@ -8,7 +8,6 @@ def prime?(i)
     num_range.none? do |num|
       i % num == 0
     end
-      
     
   else
     false 
